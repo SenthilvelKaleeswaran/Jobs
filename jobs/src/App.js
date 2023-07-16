@@ -43,7 +43,7 @@ function App() {
     if(globalSearch)
     {
 
-        axios.get(`https://job-jobs-api.vercel.app/job/search?search=${globalSearch}&page=${page}&limit=${limit}`)
+        axios.get(`/job/search?search=${globalSearch}&page=${page}&limit=${limit}`)
         .then(response=>{
           setJobs(response.data.jobs)
           setPaginationData(response.data)
@@ -51,7 +51,7 @@ function App() {
     }
     else
     {
-        axios.get(`https://job-jobs-api.vercel.app/job/search?page=${page}&limit=${limit}`)
+        axios.get(`/job/search?page=${page}&limit=${limit}`)
       .then(response=>{
         setJobs(response.data.jobs)
         setPaginationData(response.data)
@@ -109,7 +109,7 @@ function App() {
     console.log(">>>>>>>",sort)
 
     if(event.target.value){
-      axios.post(`https://job-jobs-api.vercel.app/job/sort?page=${page}&limit=${limit}`,{jobs,"sortBy":event.target.value})
+      axios.post(`/job/sort?page=${page}&limit=${limit}`,{jobs,"sortBy":event.target.value})
       .then(response=>{
         console.log("sorted ------>",response.data)
         setJobs(response.data)
@@ -119,7 +119,7 @@ function App() {
   }
 
   const handleApplyFilter = (filterdValues) => {
-    axios.post('https://job-jobs-api.vercel.app/job/filter',filterdValues)
+    axios.post('/job/filter',filterdValues)
     .then(response=>{
       setJobs(response.data)
     })
