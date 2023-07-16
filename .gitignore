@@ -6,4 +6,4 @@ README.md
 /backend/node_modules
 /backend/.prettierrc
 /backend/README.md
-
+/backend/.vercel

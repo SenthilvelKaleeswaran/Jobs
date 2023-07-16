@@ -13,7 +13,7 @@ async function bootstrap() {
         const app = await core_1.NestFactory.create(app_module_1.AppModule);
         const port = 3004;
         const corsOptions = {
-            origin: ['https://job-jobs.vercel.app/', '*'],
+            origin: ['https://jobs-jobs.vercel.app/', '*'],
             methods: ['GET', 'POST', 'PUT', 'DELETE'],
             credentials: true,
             optionsSuccessStatus: 200,
