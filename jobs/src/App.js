@@ -40,25 +40,25 @@ function App() {
 
     // let url = `/job?&page=${page}&limit=${limit}`
 
-    if(globalSearch)
-    {
+    // if(globalSearch)
+    // {
 
-        axios.get(`/job/search?search=${globalSearch}&page=${page}&limit=${limit}`)
-        .then(response=>{
-          setJobs(response.data.jobs)
-          setPaginationData(response.data)
-        })
-    }
-    else
-    {
-        axios.get(`/job/search?page=${page}&limit=${limit}`)
+    //     axios.get(`/job?search=${globalSearch}&page=${page}&limit=${limit}`)
+    //     .then(response=>{
+    //       setJobs(response.data.jobs)
+    //       setPaginationData(response.data)
+    //     })
+    // }
+    // else
+    // {
+        axios.get(`http://localhost:3004/job?page=${page}&limit=${limit}`)
       .then(response=>{
         setJobs(response.data.jobs)
         setPaginationData(response.data)
       })
       .catch((error) => console.log("eeeee",error));
 
-    }
+    // }
 
 
     // console.log(url)

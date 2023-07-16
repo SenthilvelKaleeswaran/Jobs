@@ -2,6 +2,7 @@
   "name": "jobs",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3004/",
   "dependencies": {
     "@sentry/react": "^7.57.0",
     "@sentry/tracing": "^7.57.0",

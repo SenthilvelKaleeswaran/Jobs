@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "proxy" : "http://localhost:3004/",
   "workspaces": [
     "jobs",
     "backend"
