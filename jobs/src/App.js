@@ -64,7 +64,7 @@ function App() {
     // console.log(url)
 
 
-    axios.get(`/job/filter`)
+    axios.get(`https://job-jobs-api.vercel.app/job/filter`)
     .then(response=>{
       setFilterData(response.data)
     })
