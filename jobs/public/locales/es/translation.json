@@ -7,7 +7,7 @@
     "filter": {
         "FILTER_BY": "Filtrar por",
         "FILTERS_APPLIED_zero": "Sin filtros",
-        "FILTERS_APPLIED_one": "Un filtro aplicado",
+        "FILTERS_APPLIED_one": "1 filtro aplicado",
         "FILTERS_APPLIED_other": "{{count}} filtros aplicados",
         "CLEAR_ALL": "Limpiar todo",
         "APPLY_FILTERS": "Aplicar filtros"

@@ -18,7 +18,7 @@ function Jobscard({job}) {
 
  
   const circleStyle = {
-    background: `conic-gradient:rgba(92, 164, 169, 1) ${skillMatchPercentage}%, rgba(232, 51, 99, 1) 0)`,
+    background: `conic-gradient(rgba(92, 164, 169, 1) ${skillMatchPercentage}%, rgba(232, 51, 99, 1) 0)`,
   }
 
   return (
@@ -37,7 +37,7 @@ function Jobscard({job}) {
                     </div>
                 </div>
 
-                <div className='flex items-center w-1/5 justify-between'>
+                <div className='flex items-center w-1/4 justify-between'>
                     <p className='text-blue-100 font-sm font-bold'>{t('jobs.SKILLS_MATCH')}</p>
                     <div className="flex items-center justify-center w-20 h-20 rounded-full ">
                         <div className="flex items-center justify-center w-full h-full rounded-full z-0" style={circleStyle}>
@@ -51,12 +51,10 @@ function Jobscard({job}) {
 
             </div>
             <div className='flex  items-center justify-between w-full p-4 bg-[#525D79] rounded-b-lg'>
-                <div className='flex items-center justify-between w-1/3'>
-                    <p className='text-blue-100 text-xs'>{t("jobs.POSTED")} {t('jobs.DAYS', {count: daysLeft})} </p>
-                    <span className='bg-white w-1 rounded-full h-1'>.</span>
+                <div className='flex items-center justify-between px-4'>
+                    <p className='text-blue-100 text-xs mr-2'>{t("jobs.POSTED")} {t('jobs.DAYS', {count: daysLeft})} </p>
+                    <span className='bg-white w-1 rounded-full h-1 mr-2'></span>
                     <p className='text-blue-100 text-xs'>{t('jobs.APPLICANTS', {count: job.noOfApplicants})}</p>
-                    <span className='bg-white w-1 rounded-full h-1'>.</span>
-                    <p className='text-blue-100 text-xs'>{job.salary}</p>
 
                 </div>
                 <div className='flex justify-around  items-center w-1/4 '>

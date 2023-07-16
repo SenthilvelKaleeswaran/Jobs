@@ -7,7 +7,7 @@
     "filter": {
         "FILTER_BY":"Filter by",
         "FILTERS_APPLIED_zero": "No filters",
-        "FILTERS_APPLIED_one": "One filters applied",
+        "FILTERS_APPLIED_one": "1 filter applied",
         "FILTERS_APPLIED_other": "{{count}} filters applied",
         "CLEAR_ALL": "Clear all",
         "APPLY_FILTERS": "Apply Filters"

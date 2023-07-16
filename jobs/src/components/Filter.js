@@ -109,7 +109,7 @@ function Filter({filterItems,tempFilterData,setTempFilterData,handleApplyFilter}
 
                 <div className='flex'>
                 <p className='text-white text-xs'>{t('filter.FILTERS_APPLIED', {count : filtersApplied})}</p>
-                <p  onClick={handleClearAll} className='text-white text-xs hover:cursor-pointer'>{t('filter.CLEAR_ALL')}</p>
+                <p  onClick={handleClearAll} className='text-white text-xs hover:cursor-pointer ml-2'>{t('filter.CLEAR_ALL')}</p>
                 </div>
             </div>
             <div className='w-full overflow-scroll'>

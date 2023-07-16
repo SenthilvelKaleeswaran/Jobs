@@ -15,7 +15,7 @@ function Jobs({jobs,page,setPage,limit,setLimit,paginationData}) {
 
         <div className='flex flex-col overflow-auto h-5/6  bg-[#1D2331] w-full rounded-md p-8 '>
             <div className='flex items-center bg-gradient-to-r from-gray-500  to-gray-800 rounded-l-full  mx-3 my-4 p-0.5'> 
-                <div className='  px-6 bg-gray-800 w-full rounded-l-full py-3 text-white items-center flex'>Jobs</div>
+                <div className='  px-6 bg-[#1D2331] w-full rounded-l-full py-3 text-white items-center flex'>Jobs</div>
             </div>
               {
                 jobs?.map((job)=>(
