@@ -100,7 +100,7 @@ function Filter({filterItems,tempFilterData,setTempFilterData,handleApplyFilter}
 
 
   return (
-    <div className='rounded-lg'>
+    <div className='rounded-lg w-1/4'>
 
         <div className=' flex flex-col border-2 border-gray-950 bg-[#171C28] rounded-lg w-full h-full'>
 

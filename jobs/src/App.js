@@ -139,14 +139,12 @@ function App() {
       <div className='flex bg-[#171C28] h-full p-8'>
 
 
-        <div className='w-1/4'>
           <Filter 
             filterItems={filterItems} 
             tempFilterData={tempFilterData} 
             setTempFilterData={setTempFilterData} 
             handleApplyFilter={handleApplyFilter} 
           />
-        </div>
 
         <div className='flex flex-col w-full pt-0 p-8'>
           <Sort 
