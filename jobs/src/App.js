@@ -51,7 +51,7 @@ function App() {
     // }
     // else
     // {
-        axios.get(`http://localhost:3004/job?page=${page}&limit=${limit}`)
+        axios.get(`/job?page=${page}&limit=${limit}`)
       .then(response=>{
         setJobs(response.data.jobs)
         setPaginationData(response.data)
@@ -64,7 +64,7 @@ function App() {
     // console.log(url)
 
 
-    axios.get(`https://job-jobs-api.vercel.app/job/filter`)
+    axios.get(`/job/filter`)
     .then(response=>{
       setFilterData(response.data)
     })
