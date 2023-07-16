@@ -31,7 +31,10 @@ let JobService = exports.JobService = class JobService {
         const skip = (page - 1) * limit;
         const count = await this.jobModel.countDocuments(globalSearchFilter);
         const jobs = await this.jobModel
-            .find(globalSearchFilter);
+            .find(globalSearchFilter)
+            .sort({ date: -1 })
+            .skip(skip)
+            .limit(limit);
         const totalPages = Math.ceil(count / limit);
         const result = {
             jobs,
