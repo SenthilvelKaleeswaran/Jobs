@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaSearch } from 'react-icons/fa'
-import Profile from '../assets/profile.png'
+import Profile from '../assets/ProfilePicture.png'
 import Notification from '../assets/Notification.png'
 import { useTranslation } from 'react-i18next';
 
@@ -21,19 +21,19 @@ function Navbar({globalSearch,setGlobalSearch,handleLanguageChange}) {
             />
             <FaSearch className='text-gray-400'/>
         </div>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center w-1/6'>
 
-          <img src={Profile} className=' mt-6 h-24'  alt='profile'/>
-          <img src={Notification} alt='profile' className='bg-gray-800 rounded-full drop-shadow-2xl p-1 h-8'/>
+          <img src={Profile} className='h-8 cursor-pointer'  alt='profile'/>
+          <img src={Notification} alt='profile' className='bg-gray-800 rounded-full drop-shadow-2xl p-1 h-8 cursor-pointer'/>
           
-        </div>
           <select   
-              className='appearance-none rounded-full p-2 px-5 drop-shadow-2xl text-xs outline-none bg-gray-800 text-white' 
+              className='appearance-none rounded-full p-2 px-5 drop-shadow-2xl text-xs outline-none bg-[#242D40]  text-white cursor-pointer' 
               onChange={(event)=>handleLanguageChange(event)}
           >
             <option value="en">English</option>
             <option value="es">Español</option>
           </select>
+        </div>
     </div>
   )
 }

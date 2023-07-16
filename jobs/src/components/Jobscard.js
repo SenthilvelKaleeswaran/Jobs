@@ -59,11 +59,11 @@ function Jobscard({job}) {
                 </div>
                 <div className='flex justify-around  items-center w-1/4 '>
                     <button 
-                        className='text-white text-xs bg-[#5CA4A9] rounded-full py-2 w-32 '
+                        className='text-white text-xs bg-[#5CA4A9] rounded-full py-2 w-32 cursor-pointer '
                     >
                             {t("jobs.APPLY_NOW")}
                     </button>
-                    <img  className='h-7' src={Save} alt='save' />
+                    <img  className='h-7 cursor-pointer' src={Save} alt='save' />
                 </div>
 
             </div>

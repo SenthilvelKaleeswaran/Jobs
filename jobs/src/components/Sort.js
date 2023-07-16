@@ -15,8 +15,7 @@ function Sort({results,sort,handleSortByChange}) {
         <div className='flex items-center w-36 justify-between'>
 
            <p className='text-blue-200 text-xs justify-between'>{t('sort.SORT_BY')}</p>
-           <select value={sort} onChange={(event)=>handleSortByChange(event)} className='rounded-sm p-2 px-2 text-xs outline-none'>
-                <option value="" selected>{t('sort.CHOOSE')}</option>
+           <select value={sort} onChange={(event)=>handleSortByChange(event)} className='rounded-sm p-2 px-2 text-xs outline-none cursor-pointer'>
                 <option value="Latest">{t('sort.LATEST')}</option>
                 <option value="A-Z">{t('sort.A-Z')}</option>
                 <option value="Z-A">{t('sort.Z-A')}</option>
