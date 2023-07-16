@@ -1,0 +1,43 @@
+{
+    "navbar": {
+        "JOBS": "Empleos",
+        "SEARCH_HERE": "Buscar aquí",
+        "LANGUAGE": "Idioma"
+    },
+    "filter": {
+        "FILTER_BY": "Filtrar por",
+        "FILTERS_APPLIED_zero": "Sin filtros",
+        "FILTERS_APPLIED_one": "Un filtro aplicado",
+        "FILTERS_APPLIED_other": "{{count}} filtros aplicados",
+        "CLEAR_ALL": "Limpiar todo",
+        "APPLY_FILTERS": "Aplicar filtros"
+    },
+    "sort": {
+        "SEARCH_RESULTS": "RESULTADOS DE BÚSQUEDA",
+        "JOBS_zero": "EMPLEOS - Ninguno",
+        "JOBS_one": "EMPLEOS - Un resultado",
+        "JOBS_other": "EMPLEOS - {{count}} resultados",
+        "SORT_BY": "Ordenar por",
+        "CHOOSE": "Suger",
+        "LATEST": "Más reciente",
+        "A-Z": "A-Z",
+        "Z-A": "Z-A",
+        "OLDEST": "Les reciente",
+        "APPLICATNS_LH": "Aplicarn l-h",
+        "APPLICATNS_HL": "Aplicarn h-l",
+        "SALARY_LH": "Slaer l-h",
+        "SALARY_HL": "Slaer h-l",
+        "CLOSED": "Cerrado"
+    },
+    "jobs": {
+        "POSTED": "Publicado",
+        "DAYS_zero": "Hoy",
+        "DAYS_one": "Hoy",
+        "DAYS_other": "{{count}} días atrás",
+        "APPLICANTS_zero": "Sin solicitantes",
+        "APPLICANTS_one": "1 solicitante",
+        "APPLICANTS_other": "{{count}} Solicitantes",
+        "SKILLS_MATCH": "Coincencia De Habilades",
+        "APPLY_NOW": "SOLICITAR AHORA"
+    }
+}

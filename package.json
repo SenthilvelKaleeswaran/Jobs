@@ -1,0 +1,21 @@
+{
+  "name": "jobsdashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "jobs",
+    "backend"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace backend start\" \"yarn workspace jobs start\""
+  },
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "workspaces": "^0.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "navbar": {
+        "JOBS":"Jobs",
+        "SEARCH_HERE": "Search here",
+        "LANGUAGE":"Language"
+    },
+    "filter": {
+        "FILTER_BY":"Filter by",
+        "FILTERS_APPLIED_zero": "No filters",
+        "FILTERS_APPLIED_one": "One filters applied",
+        "FILTERS_APPLIED_other": "{{count}} filters applied",
+        "CLEAR_ALL": "Clear all",
+        "APPLY_FILTERS": "Apply Filters"
+    },
+    "sort": {
+        "SEARCH_RESULTS" : "SEARCH RESULTS",
+        "JOBS_zero" : "JOBS - None",
+        "JOBS_one" : "JOBS - One result",
+        "JOBS_other" : "JOBS - {{count}} results",
+        "SORT_BY":"Sort by",
+        "CHOOSE":"Choose",
+        "LATEST": "Latest",
+        "A-Z": "A-Z",
+        "Z-A": "Z-A",
+        "OLDEST": "Oldest",
+        "APPLICATNS_LH": "Applicants l-h",
+        "APPLICATNS_HL": "Applicants h-l",
+        "SALARY_LH": "Salary l-h",
+        "SALARY_HL": "Salary h-l",
+        "CLOSED":"Closed"
+
+    },
+    "jobs": {
+        "POSTED" : "Posted",
+        "TIME" : "{{count}} hr ago",
+        "DAYS_zero" : "Today",
+        "DAYS_one" : "Today",
+        "DAYS_other" : "{{count}} Days ago",
+        "APPLICANTS_one" : "1 Applicatant",
+        "APPLICANTS_zero" : "No Applicatants",
+        "APPLICANTS_other" : "{{count}} Applicants",
+        "SKILLS_MATCH" : "Skill match",
+        "APPLY_NOW" : "APPLY NOW"
+    }
+}

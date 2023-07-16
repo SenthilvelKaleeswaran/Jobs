@@ -1,0 +1,9 @@
+node_modules
+README.md
+
+/jobs/node_modules
+
+/backend/node_modules
+/backend/.prettierrc
+/backend/README.md
+/backend/.vercel
